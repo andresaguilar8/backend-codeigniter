@@ -22,3 +22,5 @@ writable/logs/
 writable/sessions/
 writable/debugbar/
 writable/debugchar/
+
+.env
