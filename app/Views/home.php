@@ -6,30 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/favicon.ico">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <!-- STYLES -->
     <link rel="stylesheet" href="../css/styles.css">
-
 </head>
 <body>
-
     <?php include 'layout/header.php'; ?>
     <div id="content">
-        <!-- Initial content here -->
-        
     </div>
-<!-- HEADER: MENU + HEROE SECTION -->
-
-<!-- CONTENT -->
-
 <section>
-
     <h1>Promo Tiles CRUD</h1>
-
-    <p>The purpose of this page is to admin promo tiles. </p>
-
+    <p>The purpose of this page is to admin promo tiles using the MVC framework Codeigniter in PHP . </p>
     <p>With the functionality to add, edit, list and remove promo tiles.</p>
-
 </section>
 
 <script {csp-script-nonce}>
@@ -42,6 +28,5 @@
         }
     }
 </script>
-
 </body>
 </html>
