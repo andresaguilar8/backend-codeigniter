@@ -13,7 +13,7 @@ class PromoTiles extends Migration
                 'type' => 'INT',
                 'constraint' => 5,
                 'unsigned' => true,
-                'auto_increment' => true,
+                'auto_increment' => true, 
             ],
             'title' => [
                 'type' => 'VARCHAR',

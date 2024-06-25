@@ -2,12 +2,18 @@
 <html>
 <head>
     <title>Edit Promo Tile</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+
+    <?php include 'header.php'; ?>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <?php include 'messages/error_message.php'; ?>
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container">
         <h1 class="mt-4">Edit Promo Tile</h1>
-        <form action="<?php  echo site_url('promo_tiles/edit/'.$promoTile['id']);  ?>" method="post">
+        <form action="<?php  echo base_url('promo_tiles/edit/'.$promoTile['id']);  ?>" method="post">
 
             <div class="form-group">
                 <label for="title">Title</label>
@@ -23,7 +29,7 @@
             </div>
 
             <button type="submit" class="btn btn-primary">Update</button>
-            <a href="<?php echo site_url('promo_tiles'); ?>" class="btn btn-secondary">Cancel</a>
+            <a href="<?php echo base_url('promo_tiles'); ?>" class="btn btn-secondary">Cancel</a>
         </form>
     </div>
 
