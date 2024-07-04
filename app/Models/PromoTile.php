@@ -7,6 +7,8 @@ class PromoTile extends Model
 {
     protected $table = 'promo_tiles';
     protected $primaryKey = 'id';
+
+    protected $returnType = 'array';
     protected $allowedFields = ['title', 'description', 'image_url', 'created_at', 'updated_at'];
 
     /**

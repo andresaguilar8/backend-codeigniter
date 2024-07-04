@@ -16,5 +16,7 @@ $routes->get('/promo_tiles/edit/(:num)', 'PromoTilesController::edit/$1');
 $routes->post('/promo_tiles/edit/(:num)', 'PromoTilesController::update/$1');
 $routes->get('promo_tiles/delete/(:num)', 'PromoTilesController::delete/$1'); 
 
-
+$routes->group('api', ['namespace' => 'App\Controllers\API'], function($routes) {
+    $routes->get('promo_tiles', 'PromoTiles::index');
+});
 
